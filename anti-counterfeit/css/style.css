@@ -1,0 +1,49 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+#anti-counterfeit-form {
+    margin: 30px;
+}
+
+#anti-counterfeit-code {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#anti-counterfeit-form input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#anti-counterfeit-result {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* 文本居中对齐 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#anti-counterfeit-result p {
+    font-weight: bold;
+    margin: 10px; /* 添加上下左右的间距 */
+}
+
+
+#anti-counterfeit-code::placeholder {
+    text-align: center;
+}
+
+
+
